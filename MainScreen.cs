@@ -2,14 +2,15 @@
 
 namespace PasswordEncryptionAuthentication
 {
-    class MainScreen
+    public class MainScreen
     {
+        //MyUserDictionary myUserDictionary = new MyUserDictionary();
+
+        //Credentials credentials = new Credentials();
+
         public void Display()
         {
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("-------------------------------------------------------------------- ");
             Console.WriteLine();
@@ -26,10 +27,52 @@ namespace PasswordEncryptionAuthentication
             Console.WriteLine("                   Enter selection: ");
             Console.WriteLine();
             Console.WriteLine("--------------------------------------------------------------------");
-            Console.ReadLine();
+            Console.Write("Choose an option from the Menu: ");
+
 
 
         }
+        //public void Menu()
+        //{
+
+        //    Display();
+        //int menuoptions = Convert.ToInt32(Console.ReadLine());
+        //string menuoptions = Console.ReadLine();
+
+        //try
+        //{
+        //    while (menuoptions == "1" || menuoptions == "2" || menuoptions == "3")
+        //    {
+
+
+        //        switch (menuoptions)
+        //        {
+        //            case "1":
+        //                MyUserDictionary myUserDictionary = new MyUserDictionary();
+        //                myUserDictionary.User();
+
+        //                break;
+        //            case "2":
+        //                Credentials credentials = new Credentials();
+        //                credentials.CreateAcct();
+
+        //                break;
+        //            default:
+        //                //here thing exit method
+        //                //  Dispose();
+        //                break;
+
+
+
+        //        }
+        //    }
+        //}
+        //catch { }
+
     }
+
+
 }
+
+
 
